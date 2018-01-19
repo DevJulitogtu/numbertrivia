@@ -25,7 +25,7 @@ namespace api.Controllers
         [HttpGet()]
         public string GetUpperName()
         {
-            return "JULITOGTUDEV";
+            //return "JULITOGTUDEV";
         }
     }
 }
