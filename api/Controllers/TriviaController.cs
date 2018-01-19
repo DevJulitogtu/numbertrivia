@@ -21,5 +21,11 @@ namespace api.Controllers
 
             return JsonConvert.DeserializeObject<TriviaResponse>(triviaResult);
         }
+
+        [HttpGet()]
+        public string GetUpperName()
+        {
+            return "Julitogtu";
+        }
     }
 }
