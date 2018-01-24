@@ -11,6 +11,6 @@ namespace api.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index() => Content("Ola ke ase");
+        public IActionResult Index() => Content("TESTING ASPNET CORE + GITHUB + DOCKER + VSTS + AZURE");
     }
 }
