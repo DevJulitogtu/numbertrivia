@@ -12,5 +12,7 @@ namespace api.Controllers
     public class HomeController : Controller
     {
         public IActionResult Index() => Content("USING DOCKER HUB");
+
+        public IActionResult About() => Content("@julitogtu");
     }
 }
