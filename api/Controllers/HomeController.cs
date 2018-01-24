@@ -11,6 +11,6 @@ namespace api.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index() => Content("TESTING ASPNET CORE + GITHUB + DOCKER + VSTS + AZURE");
+        public IActionResult Index() => Content("USING DOCKER HUB");
     }
 }
