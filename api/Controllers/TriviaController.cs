@@ -25,7 +25,7 @@ namespace api.Controllers
         [HttpGet()]
         public string GetUpperName()
         {
-            return "JULITOGTUDEV";
+            return "TESTING ASPNET CORE + GITHUB + DOCKER + VSTS + AZURE";
         }
     }
 }
