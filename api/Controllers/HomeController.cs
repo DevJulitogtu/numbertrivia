@@ -13,6 +13,6 @@ namespace api.Controllers
     {
         public IActionResult Index() => Content("USING DOCKER HUB");
 
-        public IActionResult About() => Content("@julitogtu");
+        public IActionResult About() => Content("@julitogtu - julitogtudev :)");
     }
 }
